@@ -22,6 +22,7 @@ function Footer() {
             const { id, href, icon } = link;
             return (
               <li key={id}>
+                {/* eslint-disable-next-line */}
                 <a
                   href={href}
                   target="_blank"

@@ -28,7 +28,7 @@ export const pageLinks = [
 export const socialLinks = [
   {
     id: 1,
-    href: "https://www.twitter.com",
+    href: "https://www.facebook.com",
     icon: "fab fa-facebook",
   },
   {
@@ -38,7 +38,7 @@ export const socialLinks = [
   },
   {
     id: 3,
-    href: "https://www.twitter.com",
+    href: "https://www.squarespace.com",
     icon: "fab fa-squarespace",
   },
 ];

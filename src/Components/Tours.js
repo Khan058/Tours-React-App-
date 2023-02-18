@@ -13,7 +13,7 @@ function Tours() {
             const { id, image, date, title, info, location, duration, cost } =
               tour;
             return (
-              <article className="tour-card" id={id}>
+              <article className="tour-card" key={id}>
                 <div className="tour-img-container">
                   <img src={image} className="tour-img" alt="" />
                   <p className="tour-date">{date}</p>
